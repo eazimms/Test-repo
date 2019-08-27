@@ -1,0 +1,48 @@
+body{
+ 
+}
+
+.container {
+  
+}
+
+.gifDiv {
+  float: left; 
+  margin: 1px; 
+  margin: 10px; 
+  height: 150px; 
+  border: 10px, solid red; 
+}
+
+
+
+.jumbotron{
+  text-align: center; 
+  color: black;
+  background-color: blue;  
+
+}
+
+#gif-form {
+  display: inline-block; 
+ 
+}
+
+
+.image {
+  height: 10em; 
+  border: 3em;
+  
+}
+
+
+p {
+  color: black; 
+
+}
+
+input {
+  color: black; 
+}
+
+
