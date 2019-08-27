@@ -79,7 +79,7 @@ $( document ).ready(function() {
 
       var action = $(this).attr("data-name");
 
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&random&limit=25";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&random&limit=25";
 
       console.log(queryURL); // displays the url
 
