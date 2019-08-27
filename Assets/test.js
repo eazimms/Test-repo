@@ -106,7 +106,7 @@ $( document ).ready(function() {
               gifDiv.addClass("gifDiv");
               // pulling rating of gif
             // Add rating of gif to teh gif div. 
-              var gifRating = $("<p>").text();
+              var gifRating = $("<p>").text(results[i].embed_url);
               
               gifDiv.append(gifRating);
               // pulling gif
