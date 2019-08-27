@@ -112,7 +112,7 @@ $( document ).ready(function() {
               // pulling gif
               var gifImage = $("<img>","</br>");
             // 
-              gifImage.attr("src", results[i].images.fixed_height_small_still.url); // still image stored into src of image
+              gifImage.attr("src", results[i].images.fixed_height_small.url); // still image stored into src of image
 
               gifImage.attr("data-still",results[i].images.fixed_height_small_still.url); // still image
 
